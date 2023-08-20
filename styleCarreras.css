@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.content-box {
+    background-image: url("imagenes/mejores-juegos-coches-2258959.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 20px; 
+    color: yellow;
+    font-family: Arial, sans-serif;
+}
