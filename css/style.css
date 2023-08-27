@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: yellow;
+}
+/* ----------------------------------------------- */
+
+/* Nabvar */
+.navbar-toggler {
+    border: none; /* Quita el borde predeterminado */
+    background-color: transparent; /* Fondo transparente */
+    color: white; /* Cambia el color del icono */
+  }
+  .navbar-toggler:hover {
+    color: yellow; /* Cambia el color al pasar el mouse */
+   }
+/* ----------------------------------------------- */
+
+
+/* Imagen principal */
+.content-box {
+    background-image: url("../img/design-video-gaming-room-dubsnatch_0bf3070b-045a-4f70-bf8e-b96d32a73ca4_1920x.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20% 20px;
+    color: yellow;
+}
+/* Media Query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .content-box {
+        padding: 50% 20px; /* Ajustamos el padding vertical para mantener la proporción */
+    }
+}
+/* ----------------------------------------------- */
+
+
+/* Tarjetas */
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover; 
+    height: auto;
+}
+
+.card {
+    height: 100%;
+    margin: 0.5rem; /* Puedes ajustar este valor según tus preferencias */
+    border: none; 
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+      flex-direction: column; /* Cambia la dirección de alineación */
+      padding: 1rem; /* Agrega espacio entre los elementos */
+    }
+    .navbar-nav {
+      width: 100%; /* Ocupa todo el ancho disponible */
+      text-align: center; /* Centra los elementos */
+    }
+    .navbar-nav .nav-item {
+      margin: 0.5rem 0; /* Agrega espaciado entre elementos */
+    }
+  }
+/* ----------------------------------------------- */
+
+
+.foot {
+    color: white;
+    background-color: transparent; 
+}

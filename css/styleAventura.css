@@ -7,7 +7,7 @@ body {
 
 
 .content-box {
-    background-image: url("imagenes/wallpapersden_rasy.jpg");
+    background-image: url("../img/wallpapersden_rasy.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20% 20px; 
